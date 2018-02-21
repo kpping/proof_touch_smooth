@@ -1,0 +1,11 @@
+{
+    "name": "proof_touch_smooth",
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+        "start": "browser-sync ."
+    },
+    "devDependencies": {
+        "browser-sync": "^2.23.6"
+    }
+}
