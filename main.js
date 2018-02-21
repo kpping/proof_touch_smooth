@@ -28,7 +28,7 @@ $(() => {
         direction: Hammer.DIRECTION_ALL,
         threshold: 100,
     });
-    $(`img[data-index="0"]`).css('display', 'inline-block');
+    $(`img[data-index="${ Math.floor(currentIndex) }"]`).css('display', 'inline-block');
 
     hammer.on('panright', (e) => {
         $(`img[data-index="${ Math.floor(currentIndex) }"]`).css('display', 'none');
