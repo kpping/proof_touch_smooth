@@ -1,11 +1,13 @@
 {
     "name": "proof_touch_smooth",
-    "version": "1.0.0",
+    "description": "testing browser touch input smoothness",
+    "version": "1.0.1",
+    "author": "kpping",
     "license": "MIT",
     "scripts": {
         "start": "browser-sync ."
     },
     "devDependencies": {
-        "browser-sync": "^2.23.6"
+        "browser-sync": "^2.26.7"
     }
 }
